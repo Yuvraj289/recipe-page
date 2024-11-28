@@ -1,0 +1,118 @@
+
+* {
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: hsl(30, 54%, 90%);
+}
+
+#main-heading {
+    color:  hsl(24, 5%, 18%);
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+    font-size: calc(16px * 2);
+}
+
+#sub-heading{
+    font-size: calc(var(--Content-font-size) * 1.25);
+    color:hsl(14, 45%, 36%);
+    font-family: 'Young Serif', serif;
+}
+
+img{
+    width:100%;
+    border-radius: 10px;
+
+}
+
+.card{
+    max-height:1440px;
+    max-width:520px;
+    padding: 30px;
+    margin : 20px auto;
+    background: hsl(0, 0%, 100%);
+    font-weight: 400;
+    font-size: calc(16px/1.25);
+    color: hsl(30, 10%, 34%);
+    border-radius: 10px;
+
+}
+
+#content{
+    color:hsl(30, 10%, 34%);
+    font-size: calc(16px/1.25);
+}
+
+#bold-content{
+    font-weight:700;
+}
+
+
+#preparation{
+    color :  hsl(332, 51%, 32%);
+    font-weight:700;
+
+}
+
+.list1{
+    background: hsl(330, 100%, 98%);
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.list1 li::marker{
+    list-style-type: circle;
+    color :  hsl(332, 51%, 32%);
+}
+li{
+    padding:5px 0;
+}
+
+.list2 li::marker{
+    list-style-type: circle;
+    color : hsl(14, 45%, 36%);
+}
+
+hr{
+    border-color:  hsl(30, 18%, 87%);
+    width: 100%;
+}
+
+ul,ol{
+    padding:0px 20px;
+}
+
+table{
+    width: 375px;
+    border-collapse: collapse;
+
+}
+tr{
+    border-bottom: 1px solid  hsl(30, 18%, 87%);
+    border-width: 75%;
+}
+
+td{
+    padding: 10px 30px;
+
+}
+
+#bold-data{
+    color:hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+@media screen and (max-width: 375px) {
+    .card {
+        max-width:375px;
+    }
+
+    body{
+        padding:0;
+        margin:0;
+    }
+}
